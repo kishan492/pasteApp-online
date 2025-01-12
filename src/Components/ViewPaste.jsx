@@ -38,6 +38,19 @@ const ViewPaste = () => {
       rows={20}
       />
     </div>
+    <footer className="mt-8 text-center">
+        <p className="text-white">
+          View this project on{" "}
+          <a
+            href="https://github.com/kishan492/pasteApp-online"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </>
   )
 }
